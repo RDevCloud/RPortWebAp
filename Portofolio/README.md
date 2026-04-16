@@ -4,9 +4,7 @@
 
 ---
 
-## 🚀 Live Portfolio
-
-👉 **[View Interactive Portfolio](https://your-portfolio-url.amplifyapp.com)**
+##  Live Portfolio
 
 ---
 
@@ -25,19 +23,19 @@
 
 ## Featured Projects
 
-### 🏥 Multi-Specialty Digital Referral System
+###  Multi-Specialty Digital Referral System
 Automated platform replacing paper-based referrals for multi-location medical practices. Handles 12 specialty-specific document templates, composite e-signature envelopes, and real-time signature status tracking with automated PDF delivery.
 
-### 📊 Healthcare Operations Command Center
+###  Healthcare Operations Command Center
 Centralized operations dashboard for clinic coordinators — real-time patient tracking, provider scheduling, automated intake routing, and multi-provider coordination across locations.
 
-### 🔀 Intelligent Referral Routing Engine
+###  Intelligent Referral Routing Engine
 Automated referral routing system that distributes incoming patient referrals to specialty providers based on configurable rules, with real-time pipeline visualization and routing logs.
 
-### ✍️ E-Signature Workflow Platform
+###  E-Signature Workflow Platform
 Standalone e-signature solution integrating with multiple signing platforms via REST APIs — composite envelopes, OAuth2 token management, embedded signing UX, and webhook-driven status updates.
 
-### 💻 Telehealth & Virtual Care System
+###  Telehealth & Virtual Care System
 Complete telehealth platform built from scratch — patient intake with AI pre-evaluation, HIPAA-compliant payments, secure private video consultations, e-prescriptions with pharmacy fulfillment, automated follow-up scheduling, refill reminders, and ops revenue reporting.
 
 ---
@@ -88,9 +86,6 @@ Available for **remote full-time or contract roles** in:
 - Workflow Engineering
 - Cloud Architecture
 - Full-Stack Integration
-
-📧 **Email**: [your-email@example.com](mailto:your-email@example.com)  
-💼 **LinkedIn**: [your-profile](https://linkedin.com/in/your-profile)
 
 ---
 
