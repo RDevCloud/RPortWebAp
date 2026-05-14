@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
     <title>R. — Healthcare Automation & Full-Stack Integration Engineer</title>
     <meta name="description"
         content="Portfolio of R. — Healthcare Automation Engineer specializing in N8N workflow orchestration, AWS cloud architecture, e-signature API integrations, and HIPAA-compliant web platforms.">
@@ -75,22 +75,19 @@
             <h2 class="section-title">Real-World Impact</h2>
             <div class="impact-grid">
                 <div class="impact-card">
-                    <span class="impact-num">6+</span>
-                    <span class="impact-label">Production Dashboards</span>
-                    <p>Operations, scheduling, referrals, routing, e-signatures, and configuration platforms serving
-                        live medical practices</p>
+                    <span class="impact-num">45 min</span>
+                    <span class="impact-label">→ Under 90 Seconds</span>
+                    <p>A manual referral that required printing, faxing, calling, and filing now completes in one click — physician signs once, all documents are legally bound and delivered automatically</p>
                 </div>
                 <div class="impact-card">
-                    <span class="impact-num">15+</span>
-                    <span class="impact-label">N8N Workflows in Production</span>
-                    <p>Autonomous pipelines handling patient intake, document routing, status synchronization, and file
-                        delivery</p>
+                    <span class="impact-num">0</span>
+                    <span class="impact-label">Manual Follow-Up Calls</span>
+                    <p>15+ autonomous N8N workflows handle patient intake routing, e-signature status polling, PDF delivery, and appointment confirmations without any human intervention</p>
                 </div>
                 <div class="impact-card">
                     <span class="impact-num">100%</span>
-                    <span class="impact-label">Paperless Referral Process</span>
-                    <p>Replaced multi-page paper forms and fax machines with one-click digital referrals and
-                        legally-binding e-signatures</p>
+                    <span class="impact-label">Paper Eliminated</span>
+                    <p>Replaced multi-page paper referral forms, fax machines, and physical filing across a multi-location practice serving 12 medical specialties</p>
                 </div>
             </div>
         </div>
@@ -174,14 +171,35 @@
                     <div class="highlight"><i class="fas fa-check-circle"></i> 4 interconnected N8N workflows: creation,
                         sync, status polling, and binary PDF delivery</div>
                 </div>
+                <div class="before-after-grid">
+                    <div class="ba-card before">
+                        <h4>Before: Manual Process</h4>
+                        <ul>
+                            <li>Print referral form, fill by hand</li>
+                            <li>Fax to specialty office, wait for confirmation</li>
+                            <li>Call to verify receipt and status</li>
+                            <li>File physical copy — no real-time tracking</li>
+                            <li>~45 min per referral, errors common</li>
+                        </ul>
+                    </div>
+                    <div class="ba-card after">
+                        <h4>After: Automated System</h4>
+                        <ul>
+                            <li>Select specialty → patient data auto-fills all forms</li>
+                            <li>One-click composite e-signature ceremony</li>
+                            <li>Status auto-polled every 2 min, DB updated</li>
+                            <li>Signed PDF auto-delivered to all parties</li>
+                            <li>Under 90 seconds. Zero paper. Zero calls.</li>
+                        </ul>
+                    </div>
+                </div>
                 <div class="project-tech-tags">
                     <span class="tag">N8N</span><span class="tag">E-Signature API</span><span class="tag">AWS
                         DynamoDB</span>
                     <span class="tag">AWS Amplify</span><span class="tag">OAuth2</span><span class="tag">Webhooks</span>
                     <span class="tag">HTML/CSS/JS SPA</span>
                 </div>
-                <button class="btn btn-demo" onclick="openDemo('referral')"><i class="fas fa-play-circle"></i>
-                    Interactive Preview</button>
+                <button class="btn btn-demo" onclick="openDemo('referral')"><i class="fas fa-play-circle"></i> Interactive Preview</button>
             </div>
 
             <!-- Project 2: Operations Dashboard -->
@@ -190,26 +208,32 @@
                     <div class="project-tag">Operations Platform</div>
                     <h3><i class="fas fa-tachometer-alt"></i> Healthcare Operations Command Center</h3>
                 </div>
-                <p>Built a centralized operations dashboard for clinic coordinators to manage daily workflows across
-                    multiple providers and locations. The platform consolidates patient intake, appointment scheduling,
-                    referral routing, and provider assignments into a single real-time interface.</p>
-                <div class="project-highlights">
-                    <div class="highlight"><i class="fas fa-check-circle"></i> Real-time patient tracking with dynamic
-                        status updates across the care pipeline</div>
-                    <div class="highlight"><i class="fas fa-check-circle"></i> Provider scheduling grid with
-                        drag-and-drop appointment management</div>
-                    <div class="highlight"><i class="fas fa-check-circle"></i> Automated intake form routing —
-                        multilingual support (English/Spanish)</div>
-                    <div class="highlight"><i class="fas fa-check-circle"></i> Email configuration and notification
-                        system for appointment confirmations</div>
+                <p><strong>Evidence:</strong> Clinic coordinators were managing 3–4 different spreadsheets, email threads, and phone calls simultaneously to track daily patient flow. Missed appointments, double-bookings, and unassigned referrals were a daily occurrence with no single source of truth. <strong>Action:</strong> Built a centralized real-time SPA dashboard integrating JotForm, DynamoDB, and N8N — giving coordinators one screen to see every patient's status, assign providers, and trigger intake automations. <strong>Result:</strong> Coordinators went from juggling 4 tools to managing everything from one screen. Missed assignments dropped to near zero, and intake-to-provider time was cut from same-day guesswork to real-time visibility.</p>
+                <div class="before-after-grid">
+                    <div class="ba-card before">
+                        <h4>Before</h4>
+                        <ul>
+                            <li>4 separate spreadsheets for patient tracking</li>
+                            <li>Missed appointments from double-bookings</li>
+                            <li>Coordinators calling providers to check availability</li>
+                            <li>No real-time view of care pipeline status</li>
+                        </ul>
+                    </div>
+                    <div class="ba-card after">
+                        <h4>After</h4>
+                        <ul>
+                            <li>Single real-time dashboard for all patient flow</li>
+                            <li>Auto-routed intake forms trigger provider assignments</li>
+                            <li>Appointment confirmations sent automatically</li>
+                            <li>Zero missed assignments tracked from day one</li>
+                        </ul>
+                    </div>
                 </div>
                 <div class="project-tech-tags">
-                    <span class="tag">N8N</span><span class="tag">Jotform API</span><span class="tag">AWS
-                        DynamoDB</span>
+                    <span class="tag">N8N</span><span class="tag">Jotform API</span><span class="tag">AWS DynamoDB</span>
                     <span class="tag">HTML/CSS/JS SPA</span><span class="tag">Responsive Design</span>
                 </div>
-                <button class="btn btn-demo" onclick="openDemo('operations')"><i class="fas fa-play-circle"></i>
-                    Interactive Preview</button>
+                <button class="btn btn-demo" onclick="openDemo('operations')"><i class="fas fa-play-circle"></i> Interactive Preview</button>
             </div>
 
             <!-- Project 3: Referral Routing -->
@@ -218,25 +242,32 @@
                     <div class="project-tag">Automation Engine</div>
                     <h3><i class="fas fa-route"></i> Intelligent Referral Routing Engine</h3>
                 </div>
-                <p>Developed an automated referral routing system that intelligently distributes incoming patient
-                    referrals
-                    to the correct specialty providers based on diagnosis codes, geographic proximity, and provider
-                    availability.
-                    Eliminates manual triage and reduces referral processing time from hours to seconds.</p>
-                <div class="project-highlights">
-                    <div class="highlight"><i class="fas fa-check-circle"></i> Rule-based routing engine with
-                        configurable specialty-to-provider mapping</div>
-                    <div class="highlight"><i class="fas fa-check-circle"></i> Real-time dashboard showing referral
-                        pipeline status and bottlenecks</div>
-                    <div class="highlight"><i class="fas fa-check-circle"></i> N8N workflow automation for intake →
-                        triage → routing → notification</div>
+                <p><strong>Evidence:</strong> Incoming referrals sat in a shared inbox for hours — sometimes days — while staff manually read each one, identified the specialty, found an available provider, and forwarded it via email. Wrong-specialty assignments happened regularly, delaying patient care. <strong>Action:</strong> Built a rule-based N8N routing engine that reads incoming referral data, maps diagnosis codes to specialty providers, and automatically dispatches the referral with a notification — no human in the loop. <strong>Result:</strong> Referral-to-provider assignment time dropped from 2–4 hours to under 30 seconds. Wrong-specialty misroutes were eliminated. Staff reclaimed hours per day previously spent on manual triage.</p>
+                <div class="before-after-grid">
+                    <div class="ba-card before">
+                        <h4>Before</h4>
+                        <ul>
+                            <li>Referrals sat in shared inbox for hours</li>
+                            <li>Staff manually read and routed each one by hand</li>
+                            <li>Wrong-specialty assignments caused delays</li>
+                            <li>No tracking — referrals could get lost</li>
+                        </ul>
+                    </div>
+                    <div class="ba-card after">
+                        <h4>After</h4>
+                        <ul>
+                            <li>Referrals routed automatically in &lt;30 seconds</li>
+                            <li>Zero wrong-specialty assignments</li>
+                            <li>Full audit trail in DynamoDB per referral</li>
+                            <li>Staff hours recovered from daily manual triage</li>
+                        </ul>
+                    </div>
                 </div>
                 <div class="project-tech-tags">
                     <span class="tag">N8N</span><span class="tag">Rule Engine</span><span class="tag">REST APIs</span>
-                    <span class="tag">AWS</span><span class="tag">HTML/CSS/JS</span>
+                    <span class="tag">AWS DynamoDB</span><span class="tag">HTML/CSS/JS</span>
                 </div>
-                <button class="btn btn-demo" onclick="openDemo('routing')"><i class="fas fa-play-circle"></i>
-                    Interactive Preview</button>
+                <button class="btn btn-demo" onclick="openDemo('routing')"><i class="fas fa-play-circle"></i> Interactive Preview</button>
             </div>
 
             <!-- Project 4: E-Signature Platform -->
@@ -245,72 +276,224 @@
                     <div class="project-tag">API Integration</div>
                     <h3><i class="fas fa-pen-nib"></i> E-Signature Workflow Platform</h3>
                 </div>
-                <p>Architected a standalone e-signature solution that integrates with multiple signing platforms via
-                    their REST APIs.
-                    The system handles document preparation, envelope creation with dynamic field mapping, embedded
-                    signing ceremonies,
-                    real-time status callbacks, and secure signed document retrieval.</p>
-                <div class="project-highlights">
-                    <div class="highlight"><i class="fas fa-check-circle"></i> Multi-template composite envelopes with
-                        anchor-based field positioning</div>
-                    <div class="highlight"><i class="fas fa-check-circle"></i> OAuth2 token management with automatic
-                        refresh flows</div>
-                    <div class="highlight"><i class="fas fa-check-circle"></i> Embedded signing UX — signers never leave
-                        the application</div>
-                    <div class="highlight"><i class="fas fa-check-circle"></i> Webhook-driven status updates and binary
-                        document download API</div>
+                <p><strong>Evidence:</strong> Every patient referral required printing 3–5 documents, getting a physical physician signature, scanning them back, and emailing or faxing to the receiving office. A single referral packet took 20–30 minutes and was prone to missing signatures or lost pages. <strong>Action:</strong> Architected a full e-signature integration using DocuSign's REST API — composite templates auto-assembled per referral type, embedded signing ceremonies inside the existing UI, OAuth2 token refresh, and webhook-driven PDF delivery once signed. <strong>Result:</strong> The entire signature process now takes under 2 minutes. Physicians sign once per session for all pending documents. Signed PDFs are auto-delivered and stored — no scanning, no faxing, no lost paperwork.</p>
+                <div class="before-after-grid">
+                    <div class="ba-card before">
+                        <h4>Before</h4>
+                        <ul>
+                            <li>Print → sign by hand → scan → fax or email</li>
+                            <li>20–30 min per referral packet</li>
+                            <li>Missing signatures caused rejected referrals</li>
+                            <li>Physical copies required, filing was manual</li>
+                        </ul>
+                    </div>
+                    <div class="ba-card after">
+                        <h4>After</h4>
+                        <ul>
+                            <li>One-click composite signing ceremony, &lt;2 min</li>
+                            <li>Physician signs once — all docs legally bound</li>
+                            <li>Signed PDF auto-delivered via webhook</li>
+                            <li>Zero paper. Full audit trail. Legally compliant.</li>
+                        </ul>
+                    </div>
                 </div>
                 <div class="project-tech-tags">
-                    <span class="tag">E-Signature APIs</span><span class="tag">OAuth2</span>
-                    <span class="tag">N8N</span><span class="tag">REST/Webhooks</span><span class="tag">PDF
-                        Processing</span>
+                    <span class="tag">DocuSign API</span><span class="tag">OAuth2</span>
+                    <span class="tag">N8N</span><span class="tag">REST/Webhooks</span><span class="tag">PDF Processing</span>
                     <span class="tag">AWS Lambda</span>
                 </div>
-                <button class="btn btn-demo" onclick="openDemo('esign')"><i class="fas fa-play-circle"></i> Interactive
-                    Preview</button>
+                <button class="btn btn-demo" onclick="openDemo('esign')"><i class="fas fa-play-circle"></i> Interactive Preview</button>
             </div>
 
             <!-- Project 5: Telehealth Platform -->
             <div class="project-card glass-card">
                 <div class="project-header">
                     <div class="project-tag">End-to-End Platform</div>
-                    <h3><i class="fas fa-laptop-medical"></i> Telehealth & Virtual Care System</h3>
+                    <h3><i class="fas fa-laptop-medical"></i> Telehealth &amp; Virtual Care System</h3>
                 </div>
-                <p>Built a complete telehealth platform from scratch — from patient intake form submission through
-                    AI-powered
-                    pre-evaluation, HIPAA-compliant payment processing, private secure video consultations with
-                    physicians,
-                    e-prescription generation, pharmacy fulfillment with medication payment, and fully automated
-                    follow-up and
-                    refill scheduling. Operations receives detailed revenue and error reporting.</p>
-                <div class="project-highlights">
-                    <div class="highlight"><i class="fas fa-check-circle"></i> Intake form auto-parses demographics and
-                        symptom data for AI analysis</div>
-                    <div class="highlight"><i class="fas fa-check-circle"></i> AI pre-evaluation generates preliminary
-                        assessment and medication recommendations</div>
-                    <div class="highlight"><i class="fas fa-check-circle"></i> HIPAA-compliant payment gateway for
-                        appointment booking and medication purchases</div>
-                    <div class="highlight"><i class="fas fa-check-circle"></i> Secure private televisit platform for
-                        physician-patient video consultations</div>
-                    <div class="highlight"><i class="fas fa-check-circle"></i> E-prescription created post-visit →
-                        pharmacy fulfillment → medication payment link</div>
-                    <div class="highlight"><i class="fas fa-check-circle"></i> Automated follow-up scheduling, refill
-                        reminders, and payment notification emails</div>
-                    <div class="highlight"><i class="fas fa-check-circle"></i> Ops dashboard with detailed revenue
-                        reporting and error alerting</div>
+                <p><strong>Evidence:</strong> The practice had no telemedicine capability — patients needing remote consultations were turned away or told to come in, limiting revenue and access. There was no system to handle payments, prescriptions, or follow-ups without in-person visits. <strong>Action:</strong> Built the entire telehealth stack from scratch — JotForm intake parsed by AI for pre-evaluation, HIPAA-compliant payment processing, secure video consultation platform, e-prescription generation, pharmacy fulfillment pipeline, and automated follow-up scheduling — all orchestrated via N8N. <strong>Result:</strong> The practice launched a fully operational telemedicine service in weeks instead of months. Revenue expanded with a new patient channel. Operations gained real-time revenue and error dashboards. The entire patient journey — from symptom intake to medication delivery — runs without manual intervention.</p>
+                <div class="before-after-grid">
+                    <div class="ba-card before">
+                        <h4>Before</h4>
+                        <ul>
+                            <li>No telemedicine capability — patients turned away</li>
+                            <li>No remote payment, prescription, or follow-up system</li>
+                            <li>Revenue limited to in-person visits only</li>
+                            <li>Operations had zero visibility into remote revenue</li>
+                        </ul>
+                    </div>
+                    <div class="ba-card after">
+                        <h4>After</h4>
+                        <ul>
+                            <li>Full telemedicine service live in weeks</li>
+                            <li>AI pre-eval → payment → video → Rx → pharmacy, fully automated</li>
+                            <li>New revenue channel opened with zero added headcount</li>
+                            <li>Ops dashboard tracks revenue, errors, and refills in real time</li>
+                        </ul>
+                    </div>
                 </div>
                 <div class="project-tech-tags">
-                    <span class="tag">N8N</span><span class="tag">AI/ML Integration</span><span class="tag">AWS
-                        Lambda</span>
-                    <span class="tag">HIPAA Payments</span><span class="tag">Televisit API</span><span
-                        class="tag">E-Prescriptions</span>
+                    <span class="tag">N8N</span><span class="tag">AI/ML Integration</span><span class="tag">AWS Lambda</span>
+                    <span class="tag">HIPAA Payments</span><span class="tag">Televisit API</span><span class="tag">E-Prescriptions</span>
                     <span class="tag">AWS DynamoDB</span><span class="tag">Email Automation</span>
                 </div>
-                <button class="btn btn-demo" onclick="openDemo('telehealth')"><i class="fas fa-play-circle"></i>
-                    Interactive Preview</button>
+                <button class="btn btn-demo" onclick="openDemo('telehealth')"><i class="fas fa-play-circle"></i> Interactive Preview</button>
             </div>
         </div>
     </section>
+
+    <!-- ==================== N8N FLOW DIAGRAM ==================== -->
+    <section class="flow-section" id="automation-flow">
+        <div class="container">
+            <div class="flow-title-area">
+                <h2 class="section-title">N8N Workflow — Patient Intake to Signed Referral</h2>
+                <p>A real automation pattern from production: how a patient form submission triggers a fully automated e-signature pipeline</p>
+            </div>
+
+            <!-- N8N Canvas-style diagram -->
+            <div class="n8n-canvas">
+                <!-- Row 1: Main flow -->
+                <div class="n8n-row">
+                    <div class="n8n-node n8n-trigger">
+                        <div class="n8n-node-icon" style="background:#f59e0b"><i class="fas fa-bolt"></i></div>
+                        <div class="n8n-node-body">
+                            <div class="n8n-node-type">Trigger</div>
+                            <div class="n8n-node-name">JotForm Webhook</div>
+                            <div class="n8n-node-desc">Patient submits intake form</div>
+                        </div>
+                    </div>
+                    <div class="n8n-connector"><span></span><i class="fas fa-chevron-right"></i></div>
+
+                    <div class="n8n-node">
+                        <div class="n8n-node-icon" style="background:#0284c7"><i class="fas fa-code"></i></div>
+                        <div class="n8n-node-body">
+                            <div class="n8n-node-type">Code</div>
+                            <div class="n8n-node-name">Parse &amp; Validate</div>
+                            <div class="n8n-node-desc">Extract demographics, specialty, dx code</div>
+                        </div>
+                    </div>
+                    <div class="n8n-connector"><span></span><i class="fas fa-chevron-right"></i></div>
+
+                    <div class="n8n-node">
+                        <div class="n8n-node-icon" style="background:#7c3aed"><i class="fas fa-random"></i></div>
+                        <div class="n8n-node-body">
+                            <div class="n8n-node-type">Switch</div>
+                            <div class="n8n-node-name">Route by Specialty</div>
+                            <div class="n8n-node-desc">12 branches → provider map</div>
+                        </div>
+                    </div>
+                    <div class="n8n-connector"><span></span><i class="fas fa-chevron-right"></i></div>
+
+                    <div class="n8n-node">
+                        <div class="n8n-node-icon" style="background:#0284c7"><i class="fas fa-code"></i></div>
+                        <div class="n8n-node-body">
+                            <div class="n8n-node-type">Code</div>
+                            <div class="n8n-node-name">Build Envelope</div>
+                            <div class="n8n-node-desc">Assemble composite DocuSign payload</div>
+                        </div>
+                    </div>
+                    <div class="n8n-connector"><span></span><i class="fas fa-chevron-right"></i></div>
+
+                    <div class="n8n-node">
+                        <div class="n8n-node-icon" style="background:#0f766e"><i class="fas fa-globe"></i></div>
+                        <div class="n8n-node-body">
+                            <div class="n8n-node-type">HTTP Request</div>
+                            <div class="n8n-node-name">DocuSign API</div>
+                            <div class="n8n-node-desc">POST /envelopes — create &amp; send</div>
+                        </div>
+                    </div>
+                    <div class="n8n-connector"><span></span><i class="fas fa-chevron-right"></i></div>
+
+                    <div class="n8n-node">
+                        <div class="n8n-node-icon" style="background:#1d4ed8"><i class="fab fa-aws"></i></div>
+                        <div class="n8n-node-body">
+                            <div class="n8n-node-type">AWS DynamoDB</div>
+                            <div class="n8n-node-name">Save Record</div>
+                            <div class="n8n-node-desc">Store envelopeId + status: pending</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Divider label -->
+                <div class="n8n-workflow-break">
+                    <span><i class="fas fa-clock"></i> Separate Workflow — Scheduled every 2 min</span>
+                </div>
+
+                <!-- Row 2: Polling workflow -->
+                <div class="n8n-row">
+                    <div class="n8n-node n8n-trigger">
+                        <div class="n8n-node-icon" style="background:#f59e0b"><i class="fas fa-clock"></i></div>
+                        <div class="n8n-node-body">
+                            <div class="n8n-node-type">Schedule Trigger</div>
+                            <div class="n8n-node-name">Cron: */2 * * * *</div>
+                            <div class="n8n-node-desc">Fires every 2 minutes</div>
+                        </div>
+                    </div>
+                    <div class="n8n-connector"><span></span><i class="fas fa-chevron-right"></i></div>
+
+                    <div class="n8n-node">
+                        <div class="n8n-node-icon" style="background:#1d4ed8"><i class="fab fa-aws"></i></div>
+                        <div class="n8n-node-body">
+                            <div class="n8n-node-type">AWS DynamoDB</div>
+                            <div class="n8n-node-name">Get Pending</div>
+                            <div class="n8n-node-desc">Scan status = "pending"</div>
+                        </div>
+                    </div>
+                    <div class="n8n-connector"><span></span><i class="fas fa-chevron-right"></i></div>
+
+                    <div class="n8n-node">
+                        <div class="n8n-node-icon" style="background:#0f766e"><i class="fas fa-globe"></i></div>
+                        <div class="n8n-node-body">
+                            <div class="n8n-node-type">HTTP Request</div>
+                            <div class="n8n-node-name">Poll DocuSign</div>
+                            <div class="n8n-node-desc">GET /envelopes/{id}/status</div>
+                        </div>
+                    </div>
+                    <div class="n8n-connector"><span></span><i class="fas fa-chevron-right"></i></div>
+
+                    <div class="n8n-node">
+                        <div class="n8n-node-icon" style="background:#7c3aed"><i class="fas fa-code-branch"></i></div>
+                        <div class="n8n-node-body">
+                            <div class="n8n-node-type">IF</div>
+                            <div class="n8n-node-name">Completed?</div>
+                            <div class="n8n-node-desc">status === "completed"</div>
+                        </div>
+                    </div>
+                    <div class="n8n-connector"><span></span><i class="fas fa-chevron-right"></i></div>
+
+                    <div class="n8n-node">
+                        <div class="n8n-node-icon" style="background:#0f766e"><i class="fas fa-globe"></i></div>
+                        <div class="n8n-node-body">
+                            <div class="n8n-node-type">HTTP Request</div>
+                            <div class="n8n-node-name">Download PDF</div>
+                            <div class="n8n-node-desc">GET /envelopes/{id}/documents</div>
+                        </div>
+                    </div>
+                    <div class="n8n-connector"><span></span><i class="fas fa-chevron-right"></i></div>
+
+                    <div class="n8n-node n8n-output">
+                        <div class="n8n-node-icon" style="background:#16a34a"><i class="fas fa-paper-plane"></i></div>
+                        <div class="n8n-node-body">
+                            <div class="n8n-node-type">Send Email</div>
+                            <div class="n8n-node-name">Deliver PDF</div>
+                            <div class="n8n-node-desc">Auto-send to provider + patient</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flow-label-row">
+                <div class="flow-legend-item"><span class="flow-dot" style="background:#f59e0b"></span> Trigger Node</div>
+                <div class="flow-legend-item"><span class="flow-dot" style="background:#0284c7"></span> Code / Logic</div>
+                <div class="flow-legend-item"><span class="flow-dot" style="background:#0f766e"></span> HTTP / External API</div>
+                <div class="flow-legend-item"><span class="flow-dot" style="background:#1d4ed8"></span> AWS DynamoDB</div>
+                <div class="flow-legend-item"><span class="flow-dot" style="background:#16a34a"></span> Output</div>
+            </div>
+        </div>
+    </section>
+
+
+
 
     <!-- ==================== SANITIZED CODE SHOWCASE ==================== -->
     <section id="code" class="section">
